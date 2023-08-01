@@ -43,9 +43,7 @@ namespace FamersWPF
                 );
 
             InitializeComponent();
-        }
-
-        private void adminbutton_Click(object sender, RoutedEventArgs e)
+        }        private void adminbutton_Click(object sender, RoutedEventArgs e)
         {
             Admin ad = new Admin();
             ad.Show();

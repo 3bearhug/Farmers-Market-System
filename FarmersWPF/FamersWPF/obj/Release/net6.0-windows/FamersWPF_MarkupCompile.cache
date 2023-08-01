@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\C##\Assignment2\FarmersWPF\FamersWPF\obj\Debug\net6.0-windows\
+C:\C##\Assignment2\FarmersWPF\FamersWPF\obj\Release\net6.0-windows\
 FamersWPF
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\C##\Assignment2\FarmersWPF\FamersWPF\App.xaml
 2-268980150
 
