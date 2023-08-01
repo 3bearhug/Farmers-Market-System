@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1000_F_480911520_v1VMx4VBEQqEP215aPyB5L59H6VEmag5.jpg" />
+    <None Remove="NS-New-Release2.png" />
+    <None Remove="rainbow-pastel-blurred-sky-background-free-vector.jpg" />
+    <None Remove="restAPI-Header.jpg" />
+    <None Remove="wordpress-rest-api.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="rainbow-pastel-blurred-sky-background-free-vector.jpg" />
+    <Resource Include="Resource\1000_F_480911520_v1VMx4VBEQqEP215aPyB5L59H6VEmag5.jpg" />
+    <Resource Include="Resource\NS-New-Release2.png" />
+    <Resource Include="Resource\restAPI-Header.jpg" />
+    <Resource Include="Resource\wordpress-rest-api.jpg" />
+  </ItemGroup>
+
+</Project>

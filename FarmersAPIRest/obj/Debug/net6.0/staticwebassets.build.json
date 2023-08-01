@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "u13wDs0bCzFnDGMcQ3lNHBkvhzgunaSp0axyZdczLbc=",
+  "Source": "FarmersAPIRest",
+  "BasePath": "_content/FarmersAPIRest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

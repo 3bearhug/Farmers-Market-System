@@ -1,0 +1,35 @@
+﻿<Window x:Class="FamersWPF.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FamersWPF"
+        mc:Ignorable="d"
+        Title="FarmersWPF Application" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Resource/wordpress-rest-api.jpg"/>
+        </Grid.Background>
+        <DataGrid x:Name="showallgrid"  Margin="23,279,28,10"/>
+        <Label x:Name="label1" Content="Product Name " HorizontalAlignment="Left" Margin="117,67,0,0" VerticalAlignment="Top" FontSize="16" Background="#FF94EFFB" FontFamily="Georgia"/>
+        <TextBox x:Name="namebox" HorizontalAlignment="Left" Margin="253,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="31" FontSize="16"/>
+        <Label x:Name="label2" Content="Product ID" HorizontalAlignment="Left" Margin="117,123,0,0" VerticalAlignment="Top" FontSize="16" Background="#FF94EFFB" FontFamily="Georgia"/>
+        <TextBox x:Name="idbox" HorizontalAlignment="Left" Margin="253,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="31" FontSize="16"/>
+        <Label x:Name="label3" Content="Amount (KG)" HorizontalAlignment="Left" Margin="117,169,0,0" VerticalAlignment="Top" FontSize="16" Background="#FF94EFFB" FontFamily="Georgia"/>
+        <TextBox x:Name="amountbox" HorizontalAlignment="Left" Margin="253,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="31" FontSize="16"/>
+        <Label x:Name="label4" Content="Price Per KG" HorizontalAlignment="Left" Margin="117,217,0,0" VerticalAlignment="Top" FontSize="16" Background="#FF94EFFB" FontFamily="Georgia"/>
+        <TextBox x:Name="pricebox" HorizontalAlignment="Left" Margin="253,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="31" FontSize="16"/>
+        <Label x:Name="title" Content="Products Database Connection with REST API Properties" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="408" FontSize="16" Height="36" Background="#FFC3C6FD" FontFamily="Georgia"/>
+        <Button x:Name="addbutton" Content="Add Product" HorizontalAlignment="Left" Margin="429,123,0,0" VerticalAlignment="Top" Height="51" Width="128" FontSize="16" Background="#FFF9F7BC" FontFamily="Georgia" Click="addbutton_Click"/>
+        <Button x:Name="showallbutton" Content="List All Products" HorizontalAlignment="Left" Margin="594,123,0,0" VerticalAlignment="Top" Height="51" Width="133" FontSize="16" Background="#FFF9F7BC" FontFamily="Georgia" Click="showallbutton_Click"/>
+        <Button x:Name="updatebutton" Content="Update Product" HorizontalAlignment="Left" Margin="429,200,0,0" VerticalAlignment="Top" Height="48" Width="128" FontSize="16" Background="#FFF9F7BC" FontFamily="Georgia" Click="updatebutton_Click"/>
+        <Button x:Name="searchbutton" Content="Search" HorizontalAlignment="Left" Margin="615,67,0,0" VerticalAlignment="Top" Width="65" Height="31" FontSize="16" Background="#FFF9F7BC" FontFamily="Georgia" Click="searchbutton_Click"/>
+        <TextBox x:Name="label55" HorizontalAlignment="Left" Margin="452,67,0,0" TextWrapping="Wrap" Text="Search with ID" VerticalAlignment="Top" Width="120" FontSize="16" FontFamily="Georgia"/>
+        <Button x:Name="deletebutton" Content="Delete Products" HorizontalAlignment="Left" Margin="594,200,0,0" VerticalAlignment="Top" Height="48" Width="133" FontSize="16" Background="#FFF9F7BC" FontFamily="Georgia" Click="deletebutton_Click"/>
+        <Button x:Name="clearbutton" Content="Clear" HorizontalAlignment="Left" Margin="713,67,0,0" VerticalAlignment="Top" Height="32" FontSize="16" Width="59" Background="#FFF4B2FF" FontFamily="Georgia" Click="clearbutton_Click"/>
+        <Label x:Name="responselabel" Content="Server Response Message" HorizontalAlignment="Left" Margin="429,253,0,0" VerticalAlignment="Top" Width="343" FontSize="14" Background="#FF080808" Foreground="#FFF90505" FontWeight="Bold"/>
+        <Button x:Name="salesbutton" Content="Sales" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" FontFamily="Georgia" FontSize="16" Foreground="Black" Background="#FF58F569" Click="salesbutton_Click"/>
+
+
+    </Grid>
+</Window>
