@@ -85,7 +85,7 @@ namespace FarmersAPIRest.Controllers
         }
 
 
-        [HttpPost]
+        [HttpGet]
         [Route("GetProductByName")]
         public Response GetProductByName([FromBody] products product)
         {

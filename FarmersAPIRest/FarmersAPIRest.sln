@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmersAPIRest", "FarmersAPIRest.csproj", "{72354E3B-C42C-48C0-9807-645B826BDAEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmersAPIRest", "FarmersAPIRest.csproj", "{72354E3B-C42C-48C0-9807-645B826BDAEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionNunitTest", "..\NUnitTest\AddProductTest\InsertionNunitTest.csproj", "{96C2ED43-DD70-4857-9369-0EF493E9E0E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionTestRESTAPI", "..\NUnitTest\InsertionTestRESTAPI\InsertionTestRESTAPI.csproj", "{58522EDE-DC22-41EC-AFC4-476B43EB9B32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateNUnitTest", "..\NUnitTest\UpdateNUnitTest\UpdateNUnitTest.csproj", "{E105E4FE-3C37-43D3-9519-B4BB6714EE9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpdateTestRESTAPI", "..\NUnitTest\UpdateTestRESTAPI\UpdateTestRESTAPI.csproj", "{2014DB5A-736C-421F-906D-7093726287A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteNUnitTest", "..\NUnitTest\DeleteNUnitTest\DeleteNUnitTest.csproj", "{AACD7443-3F9B-4328-B6E8-B6720B7C65EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteTestRESTAPI", "..\NUnitTest\DeleteTestRESTAPI\DeleteTestRESTAPI.csproj", "{25D0D2F3-B4F9-4DA9-8917-80BCF9B7C530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{72354E3B-C42C-48C0-9807-645B826BDAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72354E3B-C42C-48C0-9807-645B826BDAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72354E3B-C42C-48C0-9807-645B826BDAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C2ED43-DD70-4857-9369-0EF493E9E0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C2ED43-DD70-4857-9369-0EF493E9E0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C2ED43-DD70-4857-9369-0EF493E9E0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C2ED43-DD70-4857-9369-0EF493E9E0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58522EDE-DC22-41EC-AFC4-476B43EB9B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58522EDE-DC22-41EC-AFC4-476B43EB9B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58522EDE-DC22-41EC-AFC4-476B43EB9B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58522EDE-DC22-41EC-AFC4-476B43EB9B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E105E4FE-3C37-43D3-9519-B4BB6714EE9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E105E4FE-3C37-43D3-9519-B4BB6714EE9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E105E4FE-3C37-43D3-9519-B4BB6714EE9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E105E4FE-3C37-43D3-9519-B4BB6714EE9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2014DB5A-736C-421F-906D-7093726287A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2014DB5A-736C-421F-906D-7093726287A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2014DB5A-736C-421F-906D-7093726287A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2014DB5A-736C-421F-906D-7093726287A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACD7443-3F9B-4328-B6E8-B6720B7C65EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACD7443-3F9B-4328-B6E8-B6720B7C65EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACD7443-3F9B-4328-B6E8-B6720B7C65EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACD7443-3F9B-4328-B6E8-B6720B7C65EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D0D2F3-B4F9-4DA9-8917-80BCF9B7C530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D0D2F3-B4F9-4DA9-8917-80BCF9B7C530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D0D2F3-B4F9-4DA9-8917-80BCF9B7C530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D0D2F3-B4F9-4DA9-8917-80BCF9B7C530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
